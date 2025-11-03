@@ -55,9 +55,9 @@ BEGIN
 INSERT INTO students(name, age, class)
 VALUED ('Anisha', 16,8):
 INSERT INTO students (name, age, class)
-VALUES ('Diksha', 17,8)
+VALUES ('Shivam', 17,8)
 INSERT INTO students (name, age, class)
-VALUES('Neha', 19.9)
+VALUES('Harsh', 19.9)
 --If all succeed
 RAISE NOTICE 'Transaction Successfully Done':
 EXCEPTION WHEN OTHERS THEN
