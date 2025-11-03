@@ -69,7 +69,7 @@ AFTER INSERT OR DELETE
 FOR EACH ROW
  EXECUTE FUNCTION audit_employee_changes();
  INSERT INTO tbl_employee (emp_name, designation, salary) 
-VALUES (‘Diksha', 'Software Engineer', 60000);
+VALUES (‘Shivam', 'Software Engineer', 60000);
  SELECT * FROM tbl_employee_audit;
  DELETE FROM tbl_employee WHERE emp_name = ‘Diksha'; 
 SELECT * FROM tbl_employee_audit
